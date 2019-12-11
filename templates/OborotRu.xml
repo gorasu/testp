@@ -1,0 +1,8 @@
+<templateSet group="OborotRu">
+  <template name="banner" value="{% include 'theme/_element/_banner.html.twig' with {'bannerName': '$BANNER_NAME$'} %}&#10;JJJJ" description="Встраивание баннера в код старницы" toReformat="false" toShortenFQNames="true">
+    <variable name="BANNER_NAME" expression="enum(&quot;Moscow&quot;,&quot;Kursk&quot;,&quot;Vladivostok&quot;,&quot;Sevastopol&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>
